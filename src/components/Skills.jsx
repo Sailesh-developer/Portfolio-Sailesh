@@ -180,7 +180,6 @@ useEffect(() => {
         height: 40,
       })
     );
-
     return am5.Bullet.new(root, {
       locationX: 0,
       sprite: bulletContainer,
@@ -237,16 +236,13 @@ useEffect(() => {
   return (
    
     <div className='skills-background'>
-    
+
       
         <div className='skills-heading'>Skills</div>
         <div id="chartdiv" ref={chartRef} style={{ width: "90%", height: "600px" }} />
         
      
-    
 </div>
-    
-    
     
   )
 }
