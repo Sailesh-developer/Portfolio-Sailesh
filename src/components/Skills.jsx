@@ -11,7 +11,7 @@ import javaScript from '../assets/java-script.png';
 import reactNative from '../assets/React-native.png';
 import python from '../assets/python.png';
 
-const Skills = ({scrollToSection}) => {
+const Skills = () => {
 
     const chartRef = useRef(null);
 
