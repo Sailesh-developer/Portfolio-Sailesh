@@ -1,0 +1,19 @@
+.skills-background{
+    background-color: #2A3139;
+    width: 100%;
+    height: 100vh; /* Full-screen height */
+}
+
+.skills-heading{
+    font-family: 'Roboto', sans-serif;
+    color : #f5f900;
+    font-weight : bold;
+    font-size : 50px;
+    transform: translateY(50px);
+    margin-left: 15px;
+}
+
+#chartdiv{
+ margin-top: 100px;
+}
+
