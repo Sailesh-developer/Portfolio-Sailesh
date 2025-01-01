@@ -7,13 +7,14 @@ import { AnimatePresence, motion } from "framer-motion";
 
 
 
+
 const PageWrapper = ({ children }) => {
   return (
     <motion.div
     initial={{ opacity: 0 }}      // Start invisible
   animate={{ opacity: 1 }}      // Fade in
   exit={{ opacity: 1 }}         // Fade out
-  transition={{ duration: 1 }}
+  transition={{ duration: 0.5 }}
     >
       {children}
     </motion.div>
@@ -65,9 +66,12 @@ function App() {
     //   <AboutMe/>
     //  </div>
     // </div>
-    <Router>
+
+
+    <Router> 
     <AnimatedRoutes />
   </Router>
+
   );
 }
 

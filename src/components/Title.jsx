@@ -3,23 +3,26 @@ import '../stylesheets/Title.css'
 import { ReactComponent as FrontImg } from '../assets/ForPortFolioFrontPage.svg';
 import { Tooltip } from 'react-tooltip';
 import { useNavigate } from 'react-router-dom';
-// import Frontimg from '../assets/portfolioFrontimg.png'
+import Frontimg from '../assets/portfolioFrontimg.png'
 
 
 
 
 const Title = () => {
-
+  
   const navigate = useNavigate();
 
 const navigateToAboutMe = () => {
 navigate("/Aboutme")
 }
 
+const navigateToSkills = () => {
+  navigate("/Skills")
+}
 
   return (
     <div className='background'>
-      <button className='skills-button' data-tooltip-id="tooltip" data-tooltip-content="Skills" ><img className='skills-icon'/></button>
+      <button className='skills-button' data-tooltip-id="tooltip" data-tooltip-content="Skills" onClick={navigateToSkills}><img className='skills-icon'/></button>
       <Tooltip place="top" id="tooltip" />
       <button className='projects-button' data-tooltip-id="tooltip" data-tooltip-content="Projects"><img className='projects-icon'/></button>
       <Tooltip place="top" id="tooltip" />
