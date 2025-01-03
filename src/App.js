@@ -4,6 +4,7 @@ import Skills from './components/Skills';
 import AboutMe from './components/AboutMe';
 import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
+import OfficialProjects from './components/OfficialProjects';
 
 
 
@@ -38,6 +39,10 @@ const AnimatedRoutes = () => {
         <Route
           path="/Aboutme"
           element={<PageWrapper><AboutMe /></PageWrapper>}
+        />
+           <Route
+          path="/Officialprojects"
+          element={<PageWrapper><OfficialProjects /></PageWrapper>}
         />
       </Routes>
     </AnimatePresence>

@@ -20,11 +20,15 @@ const navigateToSkills = () => {
   navigate("/Skills")
 }
 
+const navigateToOfficialProjects = () => {
+  navigate("/OfficialProjects")
+}
+
   return (
     <div className='background'>
       <button className='skills-button' data-tooltip-id="tooltip" data-tooltip-content="Skills" onClick={navigateToSkills}><img className='skills-icon'/></button>
       <Tooltip place="top" id="tooltip" />
-      <button className='projects-button' data-tooltip-id="tooltip" data-tooltip-content="Projects"><img className='projects-icon'/></button>
+      <button className='projects-button' data-tooltip-id="tooltip" data-tooltip-content="Official-Projects" onClick={navigateToOfficialProjects}><img className='projects-icon'/></button>
       <Tooltip place="top" id="tooltip" />
       <button className='aboutme-button' data-tooltip-id="tooltip" data-tooltip-content="About me" onClick={navigateToAboutMe}><img className='aboutme-icon'/></button>
       <Tooltip place="top" id="tooltip" />

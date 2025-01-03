@@ -1,0 +1,14 @@
+.official-projects-background{
+    background-color: #2A3139;
+    width: 100%;
+    height: 100vh;
+}
+
+.off-title-text{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: #f5f900;
+    font-size: 40px;
+    top: 4%;
+    left : 3%;
+}
