@@ -12,3 +12,59 @@
     top: 4%;
     left : 3%;
 }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .triangle-card {
+    width: 300px;
+    height: 300px;
+    background: #f5f900;
+    clip-path: polygon(3% 0%, 0% 100%, 100% 100%);
+    position: absolute;
+    left: 10%;
+    /* transform: translateX(-50%); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: left 0.5s ease, transform 0.5s ease;
+    z-index: 1;
+  }
+  
+  .triangle-card.expanded {
+    left: 10%; /* Move the triangle to the left */
+    transform: none;
+  }
+  
+  .view-more-btn,
+  .close-btn {
+    background: white;
+    color: #4a90e2;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .content-panel {
+    width: 60%;
+    height: 300px;
+    background: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 0;
+  }
+  
