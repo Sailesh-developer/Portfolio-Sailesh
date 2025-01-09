@@ -16,6 +16,7 @@ const OfficialProjects = () => {
     <div className='off-title-text'>Official projects:</div>
     <div className="container">
       <div className={`triangle-card ${expanded ? 'expanded' : ''}`}>
+        <div className='project-title-card'><span className='Optius'>Optius</span> <span className='order-removal-tool'>Order removal tool</span></div>
         <button onClick={handleToggle} className="view-more-btn">
           View More
         </button>

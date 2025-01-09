@@ -23,35 +23,37 @@
   }
   
   .triangle-card {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     background: #f5f900;
-    clip-path: polygon(3% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(1% 0%, 0% 100%, 100% 100%);
     position: absolute;
-    left: 10%;
+    left: 7%;
     /* transform: translateX(-50%); */
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-align: center;
+    /* text-align: center; */
     transition: left 0.5s ease, transform 0.5s ease;
     z-index: 1;
   }
   
   .triangle-card.expanded {
-    left: 10%; /* Move the triangle to the left */
+    left: 3%; /* Move the triangle to the left */
     transform: none;
   }
   
   .view-more-btn,
   .close-btn {
-    background: white;
-    color: #4a90e2;
+    background: #2A3139;
+    color: #F5F900;
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
     outline: none;
+    /* position: absolute; */
+    margin-top: 75%;
+    margin-left: 25%;
   }
   
   .content-panel {
@@ -68,3 +70,23 @@
     z-index: 0;
   }
   
+
+  .project-title-card{
+    position: absolute;
+  }
+
+  .Optius{
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: 3%;
+    margin-top: 50px;
+    /* margin-top: 30%; */
+  }
+
+  .order-removal-tool{
+    position : absolute;
+   /* display: block; */
+   font-size: 20px;
+   font-weight: 450;
+   margin-left : 7%;
+  }
