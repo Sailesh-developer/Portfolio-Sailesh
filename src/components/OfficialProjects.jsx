@@ -1,7 +1,7 @@
 import React from 'react'
 import '../stylesheets/OfficialProjects.css'
 import { useState } from 'react';
-
+import arrowBlack from '../assets/arrowBlack.png'
 
 const OfficialProjects = () => {
 
@@ -24,9 +24,9 @@ const OfficialProjects = () => {
     <div className='official-projects-background'>
     <div className='off-title-text'>Official projects:</div>
     <div class="card-container">
-  <div class="card">Optius Order removal tool UI</div>
-  <div class="card">Devops Automation UI</div>
-  <div class="card">Copilot UI</div>
+  <div class="card">Optius Order removal tool UI<button className='button-1'><img  className='arrow-1'/></button></div>
+  <div class="card">Devops Automation UI<button className='button-2'><img className='arrow-2'/></button></div>
+  <div class="card">Copilot UI<button className='button-3'><img className='arrow-3'/></button></div>
 </div>
 <div className='slanted-div-projects'>
  
