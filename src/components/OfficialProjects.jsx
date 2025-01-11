@@ -2,35 +2,36 @@ import React from 'react'
 import '../stylesheets/OfficialProjects.css'
 import { useState } from 'react';
 
+
 const OfficialProjects = () => {
 
-  const [expanded, setExpanded] = useState(false);
+  const [expandedCard1, setExpanded1] = useState(false);
+  const [expandedCard2, setExpanded2] = useState(false);
 
-  const handleToggle = () => {
-    setExpanded(!expanded);
+  const handleToggle1 = () => {
+    setExpanded1(!expandedCard1);
+    // setExpanded2(!expandedCard2);
   };
+
+  const handleToggle2 = () => {
+    setExpanded2(!expandedCard2);
+    // setExpanded1(!expandedCard1)
+  };
+
 
 
   return (
     <div className='official-projects-background'>
     <div className='off-title-text'>Official projects:</div>
-    <div className="container">
-      <div className={`triangle-card ${expanded ? 'expanded' : ''}`}>
-        <div className='project-title-card'><span className='Optius'>Optius</span> <span className='order-removal-tool'>Order removal tool</span></div>
-        <button onClick={handleToggle} className="view-more-btn">
-          View More
-        </button>
-      </div>
-      {expanded && (
-        <div className="content-panel">
-          <h3>Expanded Content</h3>
-          <p>This is the detailed content of the card.</p>
-          <button onClick={handleToggle} className="close-btn">
-            Close
-          </button>
-        </div>
-      )}
-    </div>
+    <div class="card-container">
+  <div class="card">Optius Order removal tool UI</div>
+  <div class="card">Devops Automation UI</div>
+  <div class="card">Copilot UI</div>
+</div>
+<div className='slanted-div-projects'>
+ 
+</div>
+     
     </div>
   )
 }
