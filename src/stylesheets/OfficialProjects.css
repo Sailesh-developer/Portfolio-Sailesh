@@ -39,6 +39,11 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   margin-left: 70px;
   flex-direction: row;
+  transition : transform 0.3s ease;
+}
+
+.card:hover{
+  transform: translate(25px);
 }
 
 .projects-image{
@@ -59,21 +64,18 @@
 }
 
 .button-1{
-position: absolute;
-top : 5%;
-left: 86%;
+  transform: translateX(200px);
+position: fixed;
 background-color: transparent;
 cursor: pointer;
 transition: background-color 0.3s ease, transform 0.3s ease;
 border-radius : 40%; 
-height : 4%;
-width : 2.5%;
 border : none;
 }
 
 .button-2{
-  position: absolute;
-  left: 88%;
+  transform: translateX(200px);
+position: fixed;
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -82,8 +84,8 @@ border : none;
 }
 
 .button-3{
-  position: absolute;
-  left: 88%;
+  transform: translateX(200px);
+position: fixed;
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -105,6 +107,7 @@ border : none;
   width: 30px;
   height: 20px;
   transition: all 0.3s ease; 
+  padding: 12px;
   border-radius: 50%;
 }
 
@@ -114,6 +117,7 @@ border : none;
   height: 20px;
   transition: all 0.3s ease; 
   border-radius: 50%;
+  padding: 12px;
 }
 
 .button-1:hover .arrow-1 {
@@ -122,4 +126,60 @@ border : none;
   height: 20px;
   border-radius: 50%;
   background-color: #2A3139;
+}
+
+.button-2:hover .arrow-2 {
+  content: url('../assets/arrowYellow.png');
+  width: 30px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #2A3139;
+}
+
+.button-3:hover .arrow-3 {
+  content: url('../assets/arrowYellow.png');
+  width: 30px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #2A3139;
+}
+
+.optius-project-title{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  left : 55%;
+  top : 20%;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.optius-project-description{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  left : 55%;
+  top : 23%;
+  font-size: 15px;
+  font-weight: bold;
+  max-width: 40%;
+}
+
+.optius-project-technologies{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  left : 53%;
+  top : 30%;
+  font-size: 15px;
+  font-weight: bold;
+  max-width: 40%;
+}
+
+.technologies-used{
+  position: absolute;
+  left : 15%;
+  white-space: nowrap;
+}
+
+.technologies-list{
+margin-top: 30px;
+margin-left: 10px;
 }
