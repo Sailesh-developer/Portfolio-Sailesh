@@ -1,6 +1,6 @@
 import React from 'react'
 import '../stylesheets/AboutMe.css'
-import myPortrait from "../assets/portrait.png"
+import newPortrait from "../assets/newPortrait.png"
 import { motion } from 'framer-motion';
 
 const AboutMe = () => {
@@ -21,7 +21,7 @@ const AboutMe = () => {
       }}
       style={{ display: 'flex' }} // Keeps it inline for better layout
     >
-   <img src = {myPortrait} className='portrait-image'/>
+   <img src = {newPortrait} className='portrait-image'/>
    </motion.div>
 </div>
 
