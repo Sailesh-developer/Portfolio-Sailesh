@@ -46,6 +46,28 @@
   transform: translate(25px);
 }
 
+.project-details-card{
+  width: 700px;
+  height: 690px;
+  background-color: #f5f900;
+  border-radius: 10px;
+  margin-left: 190px;
+  /* position: absolute; */
+  margin-top : 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+
+  flex-direction: row;
+  transition : transform 0.3s ease;
+  /* left : 20%; */
+}
+
 .projects-image{
   width : 800px;
   position: absolute;
@@ -54,13 +76,13 @@
 }
 
 .slanted-div-projects{
-  width: 75vw; /* Half the viewport width */
-  height: 100vh; /* 80% of the viewport height */
-  background-color: #f5f900; /* Bright yellow for visibility */
+  width: 75vw; 
+  height: 100vh;
+  background-color: #f5f900; 
   position: absolute;
-  top: 0%; /* 12% from the top */
-  right: -17.5%; /* 5% from the right */
-  clip-path: polygon(15% 0, 80% 0, 80% 100%, 0% 100%); /* Adjusted for a left-side slant */
+  top: 0%;
+  right: -17.5%;
+  clip-path: polygon(15% 0, 80% 0, 80% 100%, 0% 100%); 
 }
 
 .button-1{
@@ -147,18 +169,18 @@ position: fixed;
 .optius-project-title{
   position: absolute;
   font-family: 'Roboto', sans-serif;
-  left : 55%;
+  left : 25%;
   top : 20%;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: bold;
 }
 
 .optius-project-description{
   position: absolute;
   font-family: 'Roboto', sans-serif;
-  left : 55%;
+  left : 25%;
   top : 23%;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: bold;
   max-width: 40%;
 }
@@ -166,17 +188,18 @@ position: fixed;
 .optius-project-technologies{
   position: absolute;
   font-family: 'Roboto', sans-serif;
-  left : 53%;
+  left : 23.5%;
   top : 30%;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: bold;
   max-width: 40%;
 }
 
 .technologies-used{
   position: absolute;
-  left : 15%;
+  left : 12%;
   white-space: nowrap;
+  font-size: 18px;
 }
 
 .technologies-list{
