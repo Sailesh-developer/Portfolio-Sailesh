@@ -1,8 +1,8 @@
 import React from 'react'
 import '../stylesheets/OfficialProjects.css'
 import { useState } from 'react';
-import arrowBlack from '../assets/arrowBlack.png'
-import { div } from 'framer-motion/client';
+import { useNavigate } from 'react-router-dom';
+import { Tooltip } from 'react-tooltip';
 
 const OfficialProjects = () => {
 
@@ -11,11 +11,21 @@ const OfficialProjects = () => {
   const [showCopilotInfo, setShowCopilotInfo] = useState(false);
 
 
+  const navigate = useNavigate(); 
 
+  const navigateToHome = () => {
+    navigate("/")
+  }
 
 
   return (
     <div className='official-projects-background'>
+       <button className='home-button' data-tooltip-id="tooltip" data-tooltip-content="Home" onClick={navigateToHome}><img className='home-icon' alt=''/></button>
+       <Tooltip place="top" id="tooltip" />
+        <button className='skills-button' data-tooltip-id="tooltip" data-tooltip-content="Skills"><img className='skills-icon' alt=''/></button>
+        <Tooltip place="top" id="tooltip" />
+           <button className='aboutme-button-official' data-tooltip-id="tooltip" data-tooltip-content="About me"><img className='aboutme-icon-official' alt=''/></button>
+          <Tooltip place="top" id="tooltip" />
     <div className='off-title-text'>Official projects:</div>
     <div class="card-container">
   <div class="card" onMouseEnter={() => setShowOptiusInfo(true)}>Optius Order removal tool</div>
