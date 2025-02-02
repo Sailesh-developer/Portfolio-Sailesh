@@ -134,7 +134,7 @@
     color : yellow;
     background-color: transparent;
     border: none;
-    left : 52%;
+    left : 51.5%;
     font-size: 18px;
     height : 4.5%;
     font-size: 15px;
@@ -160,7 +160,7 @@
   border: none;
   cursor: pointer;
   transition: all 0.3s ease;
-  border-radius : 50%;
+  /* border-radius : 50%; */
 }
 
 .skills-icon {
@@ -168,6 +168,7 @@
   width: 20px;
   height: 35px;
   transition: all 0.3s ease; 
+  border-radius: 50%;
 }
 
 
