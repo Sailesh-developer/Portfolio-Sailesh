@@ -239,7 +239,7 @@ useEffect(() => {
 
       
         <div className='skills-heading'>Skills</div>
-        <div id="chartdiv" ref={chartRef} style={{ width: "90%", height: "600px" }} />
+        <div id="chartdiv" ref={chartRef} style={{ width: "90%", height: "730px" }} />
         
      
 </div>

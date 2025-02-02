@@ -9,11 +9,14 @@
     color : #f5f900;
     font-weight : bold;
     font-size : 50px;
-    transform: translateY(50px);
+  position: absolute;
     margin-left: 15px;
+    top : 5%;
+    padding: 0%;
 }
 
 #chartdiv{
- margin-top: 100px;
+position: absolute;
+top : 15%;
 }
 

@@ -17,14 +17,21 @@ const OfficialProjects = () => {
     navigate("/")
   }
 
+  const navigatetoSkills = () => {
+    navigate("/Skills")
+  }
+
+  const navigatetoAboutme = () => {
+    navigate("/Aboutme")
+  }
 
   return (
     <div className='official-projects-background'>
        <button className='home-button' data-tooltip-id="tooltip" data-tooltip-content="Home" onClick={navigateToHome}><img className='home-icon' alt=''/></button>
        <Tooltip place="top" id="tooltip" />
-        <button className='skills-button' data-tooltip-id="tooltip" data-tooltip-content="Skills"><img className='skills-icon' alt=''/></button>
+        <button className='skills-button' data-tooltip-id="tooltip" data-tooltip-content="Skills" onClick={navigatetoSkills}><img className='skills-icon' alt=''/></button>
         <Tooltip place="top" id="tooltip" />
-           <button className='aboutme-button-official' data-tooltip-id="tooltip" data-tooltip-content="About me"><img className='aboutme-icon-official' alt=''/></button>
+           <button className='aboutme-button-official' data-tooltip-id="tooltip" data-tooltip-content="About me" onClick={navigatetoAboutme}><img className='aboutme-icon-official' alt=''/></button>
           <Tooltip place="top" id="tooltip" />
     <div className='off-title-text'>Official projects:</div>
     <div class="card-container">
