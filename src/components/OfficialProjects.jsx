@@ -27,7 +27,10 @@ const OfficialProjects = () => {
 {showOptiusInfo && (
   //  <div className='project-details-card'>
       <>
-      <div className='optius-project-title'> Project title : Optius Order Removal Tool</div>
+      <div className='optius-project-title'> Project title : </div>
+      
+        <div className='optius-order-removal-tool-text'>Optius Order Removal Tool</div>
+        
       <div className='optius-project-description'>A web app made for Lumen to optimize order disconnection and cancellation processes, reducing paperwork by 70%. </div>
       <div className='optius-project-technologies'>
        

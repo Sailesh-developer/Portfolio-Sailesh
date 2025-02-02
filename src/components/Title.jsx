@@ -3,7 +3,7 @@ import '../stylesheets/Title.css'
 import { ReactComponent as FrontImg } from '../assets/ForPortFolioFrontPage.svg';
 import { Tooltip } from 'react-tooltip';
 import { useNavigate } from 'react-router-dom';
-import Frontimg from '../assets/portfolioFrontimg.png'
+
 
 
 
@@ -26,11 +26,11 @@ const navigateToOfficialProjects = () => {
 
   return (
     <div className='background'>
-      <button className='skills-button' data-tooltip-id="tooltip" data-tooltip-content="Skills" onClick={navigateToSkills}><img className='skills-icon'/></button>
+      <button className='skills-button' data-tooltip-id="tooltip" data-tooltip-content="Skills" onClick={navigateToSkills}><img className='skills-icon' alt=''/></button>
       <Tooltip place="top" id="tooltip" />
-      <button className='projects-button' data-tooltip-id="tooltip" data-tooltip-content="Official-Projects" onClick={navigateToOfficialProjects}><img className='projects-icon'/></button>
+      <button className='projects-button' data-tooltip-id="tooltip" data-tooltip-content="Official-Projects" onClick={navigateToOfficialProjects}><img className='projects-icon' alt=''/></button>
       <Tooltip place="top" id="tooltip" />
-      <button className='aboutme-button' data-tooltip-id="tooltip" data-tooltip-content="About me" onClick={navigateToAboutMe}><img className='aboutme-icon'/></button>
+      <button className='aboutme-button' data-tooltip-id="tooltip" data-tooltip-content="About me" onClick={navigateToAboutMe}><img className='aboutme-icon' alt=''/></button>
       <Tooltip place="top" id="tooltip" />
      <div className='slanted-div'>
       
