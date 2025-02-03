@@ -230,7 +230,7 @@ line-height: 25px;
 }
 
 .home-icon{
-content: url('../assets/Home.png');
+content: url('../assets/home_new.png');
 width: 30px;
 height: 30px;
 transition: all 0.3s ease; 
@@ -239,7 +239,7 @@ padding: 5px;
 }
 
 .home-button:hover .home-icon {
-  content: url('../assets/Home_dark.png');
+  content: url('../assets/home_new_dark.png');
   width: 30px;
   height: 30px;
   border-radius: 50%;

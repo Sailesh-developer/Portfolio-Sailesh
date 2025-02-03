@@ -42,3 +42,104 @@
     width : 40%;
     line-height: 1.8;
 }
+
+.home-button-about-me{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left : 40%;
+    top : 0.5%
+  }
+  
+  .home-icon-about-me{
+  content: url('../assets/home_new.png');
+  width: 30px;
+  height: 30px;
+  transition: all 0.3s ease; 
+  border-radius: 50%;
+  padding: 5px;
+  }
+  
+  .home-button-about-me:hover .home-icon-about-me {
+    content: url('../assets/home_new_dark.png');
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    outline: none;
+    background-color: #f5f900;
+    padding: 5px;
+  }
+
+  .skills-button-about-me{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius : 50%;
+    position: absolute;
+    top : 1%;
+    left : 44.5%;
+  }
+  
+  .skills-icon-about-me {
+    content: url('../assets/skills_official.png');
+    width: 20px;
+    height: 35px;
+    transition: all 0.3s ease;
+    padding-left : 5px;
+    padding-right: 5px;
+  }
+  
+  
+  .skills-button-about-me:hover .skills-icon-about-me{
+    content: url('../assets/skillsHover_official.png');
+    width: 20px;
+    height: 35px;
+    border-radius: 50%;
+  }
+  
+  .skills-button-about-me:hover{
+    background-color: #f5f900;
+    outline: none;
+    border-radius: 50%;
+  }
+
+
+  .projects-button-about-me {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius : 50%;
+    left : 48.5%;
+    top : 1%;
+
+  }
+  
+  .projects-icon-about-me {
+    content: url('../assets/projects_aboutme.png');
+    width: 28px;
+    height: 28px;
+    transition: all 0.3s ease; 
+    padding-bottom : 10px;
+    border-radius: 50%;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-bottom: 5px;
+  }
+  
+  
+  .projects-button-about-me:hover .projects-icon-about-me {
+    content: url('../assets/projects_about_me_hover.png');
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+  }
+
+  .projects-button-about-me:hover {
+    background-color: #f5f900;
+    border-radius: 50%;
+  }
+ 
