@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../stylesheets/AboutMe.css'
-import newPortrait from "../assets/newPortrait.png"
+import myPortrait from "../assets/myPortrait.png"
 import { motion } from 'framer-motion';
 import { Tooltip } from 'react-tooltip';
 import { useNavigate } from 'react-router-dom';
+import downloadIcon from "../assets/download-icon.png";
+import downloadIconHovered from "../assets/download-icon-hover.png";
 
 const AboutMe = () => {
+
+  const [downloadResumeHovered , setDownloadResumeHovered] = useState(false)
 
   const navigate = useNavigate(); 
 
@@ -21,6 +25,15 @@ const AboutMe = () => {
     navigate("/OfficialProjects")
   }
 
+  const handleResumeDownload = () => {
+    const saileshResume = "/Sailesh-resume.pdf";
+    const link = document.createElement("a");
+    link.href = saileshResume;
+    link.download = "Sailesh's resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
   return (
     <div className='about-me-background'>
@@ -38,7 +51,7 @@ const AboutMe = () => {
       }}
       style={{ display: 'flex' }} // Keeps it inline for better layout
     >
-   <img src = {newPortrait} className='portrait-image' alt = ''/>
+   <img src = {myPortrait} className='portrait-image' alt = ''/>
    </motion.div>
 </div>
 <button className='home-button-about-me' data-tooltip-id="tooltip" data-tooltip-content="Home" onClick={navigateToHome}><img className='home-icon-about-me' alt=''/></button>
@@ -60,6 +73,39 @@ When I’m not coding, I enjoy exploring new tools like Affinity Designer to bri
 Let’s connect and create something amazing together!
 </p>
 </div>
+<div className='contact-information'>
+Contact information : 
+</div>
+<div className='phone-number'>phone number : 7904120693</div>
+<div className='email-id'>Email ID : sailesh.developer2001@gmail.com</div>
+
+ <span className='resume-download-text'>you can download my resume by clicking this button.</span>   
+ <button
+      onMouseEnter={() => setDownloadResumeHovered(true)}
+      onMouseLeave={() => setDownloadResumeHovered(false)}
+      style={{
+        backgroundColor: downloadResumeHovered ? "black" : "#F5F900",
+        transition: "all 0.3s ease",
+        borderRadius: "20%",
+        border: "none",
+        cursor : "pointer",
+        position: "absolute",
+        top : "89%",
+        left : "37%",
+        height : "40px",
+        width : "40px",
+        paddingLeft : '8px'
+      }}
+      onClick={handleResumeDownload}
+       data-tooltip-id="tooltip" data-tooltip-content="Download resume"
+    >
+      <img
+        src={downloadResumeHovered  ?  downloadIconHovered : downloadIcon}
+        alt="icon"
+        style={{ width: "24px", height: "24px" }}
+      />
+    </button>
+   <Tooltip place="top" id="tooltip"/>
     </div>
   )
 }
