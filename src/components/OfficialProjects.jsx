@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import { Tooltip } from 'react-tooltip';
 import OORTFlow from '../assets/OORT flow.png';
 import DevAutoFlow from '../assets/devops-automation-flow.png';
+import copilotFlow from '../assets/copilot-flow.png';
  
 const OfficialProjects = () => {
 
@@ -97,6 +98,30 @@ const OfficialProjects = () => {
       <img src={DevAutoFlow} alt='' className='devops-automation-flow'/>
         </>
       )
+     }
+     { showCopilotInfo && (
+      <>
+ <div className='copilot-project-title'> Project title : </div>
+ <div className='copilot-text'>Co-pilot</div>
+ <div className='copilot-description'>A chatbot made to provide insights about the financial information of several clients and also to commit and push code changes into github repositories. </div>
+ <div className='copilot-technologies'>
+        <div className='copilot-technologies-used'>Technologies used : </div>
+        <div  className='technologies-list'>
+        <ol>
+        <li>Front end : React.js</li>
+        <li>Back end : python(websockets)</li>
+        <li>Model used : gemini pro, code bison, text bison</li>
+        <li>Deployed service: GCP.</li>
+        </ol>
+        </div>
+        </div>
+        <div className='copilot-flow-title'>
+       Project flow:
+      </div>
+      <img src={copilotFlow} alt='' className='copilot-flow'/>
+      </>
+     )
+
      }
      
 </div>
