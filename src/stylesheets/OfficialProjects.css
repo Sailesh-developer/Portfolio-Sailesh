@@ -170,16 +170,17 @@ position: fixed;
 .optius-project-title{
   position: absolute;
   font-family: 'Roboto', sans-serif;
-  left : 25%;
+  left : 20%;
   top : 20%;
   font-size: 25px;
   font-weight: bold;
 }
 
+
 .optius-project-description{
   position: absolute;
   font-family: 'Roboto', sans-serif;
-  left : 25%;
+  left : 20%;
   top : 27%;
   font-size: 18px;
   font-weight: bold;
@@ -189,7 +190,7 @@ position: fixed;
 .optius-project-technologies{
   position: absolute;
   font-family: 'Roboto', sans-serif;
-  left : 23.5%;
+  left : 20%;
   top : 33%;
   font-size: 18px;
   font-weight: bold;
@@ -198,19 +199,20 @@ position: fixed;
 
 .technologies-used{
   position: absolute;
-  left : 8%;
+  /* left : 8%; */
   white-space: nowrap;
   font-size: 25px;
 }
 
 .technologies-list{
-margin-top: 40px;
+  margin-top: 40px;
+transform: translateX(-16px);
 }
 
 .optius-order-removal-tool-text{
 position: absolute;
 font-family: 'Roboto', sans-serif;
-left : 25%;
+left : 20%;
 top : 24%;
 font-size: 18px;
 font-weight: bold;
@@ -319,3 +321,84 @@ padding: 5px;
   cursor: pointer;
 }
 
+
+.oort-flow{
+  position: absolute;
+  top : 50%;
+  left : 15%;
+  height : 27rem;
+  width : 48rem;
+}
+
+.flow-title{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  left : 20%;
+  top : 48%;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.devops-project-title{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  left : 20%;
+  top : 12%;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.devops-automation-text{
+  position: absolute;
+font-family: 'Roboto', sans-serif;
+left : 20%;
+top : 15%;
+font-size: 18px;
+font-weight: bold;
+max-width: 40%;
+line-height: 25px;
+}
+
+.devops-automation-description{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  left : 20%;
+  top : 18%;
+  font-size: 18px;
+  font-weight: bold;
+  max-width: 40%;
+}
+
+.devops-technologies-used{
+  position: absolute;
+  /* left : 8%; */
+  white-space: nowrap;
+  font-size: 25px;
+}
+
+.devops-automation-technologies{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  left : 20%;
+  top : 24%;
+  font-size: 18px;
+  font-weight: bold;
+  max-width: 40%;
+}
+
+.devops-automation-flow{
+  position: absolute;
+  top : 44%;
+  left : 15%;
+  height : 30rem;
+  width : 48rem;
+}
+
+.devops-automation-flow-title{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  left : 20%;
+  top : 39%;
+  font-size: 25px;
+  font-weight: bold;
+}

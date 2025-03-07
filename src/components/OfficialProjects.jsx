@@ -3,7 +3,9 @@ import '../stylesheets/OfficialProjects.css'
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Tooltip } from 'react-tooltip';
-
+import OORTFlow from '../assets/OORT flow.png';
+import DevAutoFlow from '../assets/devops-automation-flow.png';
+ 
 const OfficialProjects = () => {
 
   const [showOptiusInfo, setShowOptiusInfo] = useState(false);
@@ -35,9 +37,9 @@ const OfficialProjects = () => {
           <Tooltip place="top" id="tooltip" />
     <div className='off-title-text'>Official projects:</div>
     <div class="card-container">
-  <div class="card" onMouseEnter={() => setShowOptiusInfo(true)}>Optius Order removal tool</div>
-  <div class="card" onMouseEnter={() => setShowDevopsInfo(true)}>Devops Automation</div>
-  <div class="card" onMouseEnter={() => setShowCopilotInfo(true)}>Copilot</div>
+  <div class="card" onMouseEnter={() => [setShowOptiusInfo(true), setShowCopilotInfo(false), setShowDevopsInfo(false)]}>Optius Order removal tool</div>
+  <div class="card" onMouseEnter={() => [setShowDevopsInfo(true),setShowOptiusInfo(false), setShowCopilotInfo(false)]}>Devops Automation (POC)</div>
+  <div class="card" onMouseEnter={() => [setShowCopilotInfo(true) , setShowDevopsInfo(false) , setShowOptiusInfo(false)]}>Copilot (POC)</div>
 </div>
 <div className='slanted-div-projects'>
  
@@ -52,17 +54,49 @@ const OfficialProjects = () => {
       <div className='optius-project-technologies'>
        
         <div className='technologies-used'>Technologies used : </div>
-        <ol className='technologies-list'>
+        <div  className='technologies-list'>
+        <ol>
         <li>Front end : React.js</li>
         <li>Back end : Spring boot</li>
         <li>Database : MySQL</li>
         <li>Others : GCP.</li>
         </ol>
+        </div>
       </div>
-      
+  
+      <div className='flow-title'>
+       Project flow:
+      </div>
+      <img src={OORTFlow} alt='' className='oort-flow'/>
+  
       </>
       // </div>
      )
+     }
+
+     {
+      showDevopsInfo && (
+        <>
+        <div className='devops-project-title'> Project title : </div>
+        <div className='devops-automation-text'>Devops automation</div>
+        <div className='devops-automation-description'>A chatbot created with an intention to simplify and expedite the project deployment process for new users. </div>
+        <div className='devops-automation-technologies'>
+        <div className='devops-technologies-used'>Technologies used : </div>
+        <div  className='technologies-list'>
+        <ol>
+        <li>Front end : React.js</li>
+        <li>Back end : python(fast API)</li>
+        <li>Model used : gemini pro</li>
+        <li>Deployed service: GCP.</li>
+        </ol>
+        </div>
+        </div>
+        <div className='devops-automation-flow-title'>
+       Project flow:
+      </div>
+      <img src={DevAutoFlow} alt='' className='devops-automation-flow'/>
+        </>
+      )
      }
      
 </div>
