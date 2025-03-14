@@ -8,12 +8,25 @@ import reactjs from '../assets/reactjs.png';
 import spring from '../assets/spring.png';
 import angular from '../assets/angular.png';
 import javaScript from '../assets/java-script.png';
-import reactNative from '../assets/React-native.png';
-import python from '../assets/python.png';
+import affDesigner from '../assets/logo.png';
+import { useNavigate } from 'react-router-dom';
+import { Tooltip } from 'react-tooltip';
 
 const Skills = () => {
 
     const chartRef = useRef(null);
+
+
+
+    const navigate = useNavigate(); 
+
+    const navigateToHome = () => {
+      navigate("/")
+    }
+
+    const navigateToOfficialProjects = () => {
+      navigate("/OfficialProjects")
+    }
 
     // const [scrollSectionVisible , setScrollSectionVisible] = useState(false);
 
@@ -26,13 +39,11 @@ useEffect(() => {
 
   // Sample data with normalization
   const originalData = [
-    { name: "next js", steps: 12000, pictureSettings: { src: "https://www.amcharts.com/wp-content/uploads/2019/04/monica.jpg" } },
     { name: "React js", steps: 25000, pictureSettings: { src: reactjs} },
     { name: "Spring boot", steps: 20000, pictureSettings: { src: spring } },
     { name: "Angular", steps: 19000, pictureSettings: { src: angular } },
     { name: "JavaScript", steps: 22465, pictureSettings: { src: javaScript } },
-    { name: "Python", steps: 11561, pictureSettings: { src: python } },
-    { name: "React native", steps: 22465, pictureSettings: { src: reactNative } },
+    { name: "Affinity designer" , steps: 30000, pictureSettings: {src: affDesigner}}
   ];
 
   // Normalization function
@@ -239,6 +250,9 @@ useEffect(() => {
 
       
         <div className='skills-heading'>Skills</div>
+        <button className='home-button-for-skills' data-tooltip-id="tooltip" data-tooltip-content="Home" onClick={navigateToHome}><img className='home-icon-for-skills' alt=''/></button>
+        <Tooltip place="top" id="tooltip" />
+        <button className='projects-button-for-skills' data-tooltip-id="tooltip" data-tooltip-content="Official-Projects" onClick={navigateToOfficialProjects}><img className='projects-icon-for-skills' alt=''/></button>
         <div id="chartdiv" ref={chartRef} style={{ width: "90%", height: "730px" }} />
         
      

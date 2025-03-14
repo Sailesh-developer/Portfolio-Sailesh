@@ -30,7 +30,7 @@
     font-size : 50px;
     position: absolute;
     top : 10%;
-    margin-left: 55px;
+    margin-left: 115px;
 }
 
 .phone-number{
@@ -58,7 +58,7 @@
   font-size : 20px;
   position: absolute;
   top : 72%;
-  left : 3%;
+  left : 7%;
 }
 
 .about-me-text{
@@ -87,7 +87,10 @@
   height: 30px;
   transition: all 0.3s ease; 
   border-radius: 50%;
-  padding: 5px;
+  padding-bottom :8px;
+  padding-left: 8px;
+  padding-top: 4px;
+  padding-right: 8px;
   }
   
   .home-button-about-me:hover .home-icon-about-me {
@@ -97,7 +100,10 @@
     border-radius: 50%;
     outline: none;
     background-color: #f5f900;
-    padding: 5px;
+    padding-bottom :8px;
+    padding-left: 8px;
+    padding-top: 4px;
+    padding-right: 8px;
   }
 
   .skills-button-about-me{

@@ -9,7 +9,7 @@
     color : #f5f900;
     font-weight : bold;
     font-size : 50px;
-  position: absolute;
+    position: absolute;
     margin-left: 15px;
     top : 5%;
     padding: 0%;
@@ -20,3 +20,71 @@ position: absolute;
 top : 15%;
 }
 
+.home-button-for-skills{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  left : 84%;
+  top : 0.5%
+}
+
+.home-icon-for-skills{
+  content: url('../assets/home_new.png');
+  width: 30px;
+  height: 30px;
+  transition: all 0.3s ease; 
+  border-radius: 50%;
+  padding-bottom :8px;
+  padding-left: 8px;
+  padding-top: 4px;
+  padding-right: 8px;
+ 
+  }
+  
+
+.home-button-for-skills:hover .home-icon-for-skills {
+  content: url('../assets/home_new_dark.png');
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  outline: none;
+  background-color: #f5f900;
+  padding-bottom :8px;
+  padding-left: 8px;
+  padding-top: 4px;
+  padding-right: 8px;
+}
+
+.projects-button-for-skills {
+  position: absolute;
+  top: 0.5%;
+  left: 89%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius : 50%;
+
+}
+
+.projects-icon-for-skills {
+  content: url('../assets/projects.png');
+  width: 28px;
+  height: 28px;
+  transition: all 0.3s ease; 
+  padding-bottom :8px;
+  padding-left: 8px;
+  padding-top: 4px;
+  padding-right: 8px;
+  border-radius: 50%;
+}
+
+
+.projects-button-for-skills:hover .projects-icon-for-skills {
+  content: url('../assets/projectsHover.png');
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: #f5f900;
+}
