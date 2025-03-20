@@ -28,6 +28,10 @@ const Skills = () => {
       navigate("/OfficialProjects")
     }
 
+    const navigateToAboutMe = () => {
+      navigate("/Aboutme")
+      }
+
     // const [scrollSectionVisible , setScrollSectionVisible] = useState(false);
 
 useEffect(() => {
@@ -253,6 +257,7 @@ useEffect(() => {
         <button className='home-button-for-skills' data-tooltip-id="tooltip" data-tooltip-content="Home" onClick={navigateToHome}><img className='home-icon-for-skills' alt=''/></button>
         <Tooltip place="top" id="tooltip" />
         <button className='projects-button-for-skills' data-tooltip-id="tooltip" data-tooltip-content="Official-Projects" onClick={navigateToOfficialProjects}><img className='projects-icon-for-skills' alt=''/></button>
+        <button className='aboutme-button-skills' data-tooltip-id="tooltip" data-tooltip-content="About me" onClick={navigateToAboutMe}><img className='aboutme-icon-skills' alt=''/></button>
         <div id="chartdiv" ref={chartRef} style={{ width: "90%", height: "730px" }} />
         
      
