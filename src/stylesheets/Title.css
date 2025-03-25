@@ -81,7 +81,6 @@
     border-radius : 12px;
     font-weight: bold;
     transition: background-color 0.3s ease, transform 0.3s ease;
-
   }
 
   .explore-button:hover{
@@ -96,7 +95,7 @@
     color : yellow;
     background-color: transparent;
     border: none;
-    left : 44%;
+    left : 40%;
     top: 1%;
     /* font-size: 15px; */
     height : 4%;
@@ -115,7 +114,7 @@
     color : yellow;
     background-color: transparent;
     border: none;
-    left : 48%;
+    left : 49.3%;
     font-size: 18px;
     height : 4%;
     width : 2.5%;
@@ -134,7 +133,7 @@
     color : yellow;
     background-color: transparent;
     border: none;
-    left : 51.5%;
+    left : 54%;
     font-size: 18px;
     height : 4.5%;
     font-size: 15px;
@@ -237,4 +236,114 @@
   top : 6%;
   /* right :15.5%; */
   /* background-size: fit; */
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  
+  .title-text{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: #f5f900;
+    font-size: 45px;
+    top: 28%;
+    left : 10%;
+  } 
+
+  .title-sub-text{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: #f5f900;
+    font-size: 30px;
+    top: 37%;
+    left : 13%;
+  }
+
+  .title-sub-text-2{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    color: #f5f900;
+    font-size: 13px;
+    top: 55%;
+    left : 3%;
+    white-space: wrap;
+  }
+
+  .explore-button{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f900;
+    border : none;
+    top: 70%;
+    left : 18%;
+    width: 100px;
+    height : 40px;
+    border-radius : 12px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 12px;
+  }
+
+  .explore-button:hover{
+    background-color: #2A3139;
+    color : #f5f900;
+    border : 1px solid #f5f900;
+    cursor : pointer;
+    font-size: 12px;
+  }
+
+  .slanted-div {
+    width: 65vw; /* Half the viewport width */
+    height: 100vh; /* 80% of the viewport height */
+    background-color: #f5f900; /* Bright yellow for visibility */
+    position: absolute;
+    top: 0%; /* 12% from the top */
+    right: -13.5%; /* 5% from the right */
+    clip-path: polygon(21% 0, 80% 0, 80% 100%, 0% 100%); /* Adjusted for a left-side slant */
+  }
+
+  .title-img{
+    position: absolute;
+    width : 70vw;
+    height : 105vh;
+    left : 50px;
+  }
+
+  .projects-button{
+    position : absolute;
+    color : yellow;
+    background-color: transparent;
+    border: none;
+    left : 49.3%;
+    font-size: 18px;
+    height : 3.8%;
+    width : 3.8%;
+    top : 1%;
+    font-size: 15px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+  .projects-button:hover{
+    background-color: #f5f900;
+    color: #2A3139;
+  }
+
+  .projects-icon {
+    content: url('../assets/projects.png');
+    width: 21px;
+    height: 21px;
+    transition: all 0.3s ease; 
+    padding-bottom : 10px;
+  }
+
+  .projects-button:hover  .projects-icon {
+    content: url('../assets/projectsHover.png');
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: block;
+    
+  }
+  
 }
