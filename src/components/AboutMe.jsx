@@ -76,7 +76,6 @@ Let’s connect and create something amazing together!
 <div className='contact-information'>
 Contact information : 
 </div>
-<div className='phone-number'>phone number : 7904120693</div>
 <div className='email-id'>Email ID : sailesh.developer2001@gmail.com</div>
 
  <span className='resume-download-text'>you can download my resume by clicking this button.</span>   
