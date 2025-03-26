@@ -91,41 +91,48 @@
   }
 
   .skills-button{
-    position : absolute;
-    color : yellow;
     background-color: transparent;
     border: none;
-    left : 40%;
-    top: 1%;
-    /* font-size: 15px; */
-    height : 4%;
-    width : 2.5%;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: absolute;
+    top : 0.5%;
+    left : 42.5%;
+    width: 50px;
+    height: 30px;
+    color: #f5f900;
+    font-weight: bold;
   }
 
-  .skills-button:hover{
+  .skills-button:hover  {
+    width: 50px;
+    height: 30px;
     background-color: #f5f900;
-    color: #2A3139;
+    outline: none;
+    color: black;
+    font-weight: bold;
   }
 
   .projects-button{
-    position : absolute;
-    color : yellow;
+    position: absolute;
     background-color: transparent;
     border: none;
-    left : 49.3%;
-    font-size: 18px;
-    height : 4%;
-    width : 2.5%;
-    top : 1%;
-    font-size: 15px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    left : 46.5%;
+    top : 0.5%;
+    width: 65px;
+    height: 30px;
+    color: #f5f900;
+    font-weight: bold;
   }
 
   .projects-button:hover{
+    width: 65px;
+    height: 30px;
     background-color: #f5f900;
-    color: #2A3139;
+    color: black;
+    font-weight: bold;
   }
 
   .aboutme-button{
@@ -133,18 +140,26 @@
     color : yellow;
     background-color: transparent;
     border: none;
-    left : 54%;
-    font-size: 18px;
+    left : 51.5%;
+    font-size: 13px;
     height : 4.5%;
     font-size: 15px;
     transition: background-color 0.3s ease, transform 0.3s ease;
     width : 2.5%;
-    top:1%;
+    top:0.5%;
+    white-space: nowrap;
+    height: 30px;
+    width: 75px;
+    font-weight: bold;
+    cursor: pointer;
   }
 
   .aboutme-button:hover{
-    background-color: #f5f900;
-    color: #2A3139;
+  height: 30px;
+  width: 75px;
+  background-color: #f5f900;
+  color: black;
+  font-weight: bold;
   }
 
 .title-img{
@@ -154,80 +169,27 @@
   left : 50px;
 }
 
-.skills-button {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  /* border-radius : 50%; */
-}
 
-.skills-icon {
+
+/* .skills-icon {
   content: url('../assets/skills.png');
   width: 20px;
   height: 35px;
   transition: all 0.3s ease; 
   border-radius: 50%;
-}
+} */
 
 
-.skills-button:hover .skills-icon {
-  content: url('../assets/skillsHover.png');
-  width: 20px;
-  height: 35px;
-  border-radius: 50%;
-  outline: none;
-}
 
 
-.projects-button {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  border-radius : 50%;
-}
-
-.projects-icon {
-  content: url('../assets/projects.png');
-  width: 28px;
-  height: 28px;
-  transition: all 0.3s ease; 
-  padding-bottom : 10px;
-}
 
 
-.projects-button:hover .projects-icon {
-  content: url('../assets/projectsHover.png');
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
-}
 
 
-.aboutme-button {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  border-radius : 50%;
-}
-
-.aboutme-icon {
-  content: url('../assets/aboutme.png');
-  width: 28px;
-  height: 28px;
-  transition: all 0.3s ease; 
-  padding-bottom : 10px;
-}
 
 
-.aboutme-button:hover .aboutme-icon {
-  content: url('../assets/aboutmeHover.png');
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
-}
+
+
 
 .Title-image{
   position: absolute;

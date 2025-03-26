@@ -26,11 +26,11 @@ const navigateToOfficialProjects = () => {
 
   return (
     <div className='background'>
-      <button className='skills-button' data-tooltip-id="tooltip" data-tooltip-content="Skills" onClick={navigateToSkills}><img className='skills-icon' alt=''/></button>
+      <button className='skills-button' data-tooltip-id="tooltip" data-tooltip-content="Skills" onClick={navigateToSkills}>Skills</button>
       <Tooltip place="top" id="tooltip" />
-      <button className='projects-button' data-tooltip-id="tooltip" data-tooltip-content="Official-Projects" onClick={navigateToOfficialProjects}><img className='projects-icon' alt=''/></button>
+      <button className='projects-button' data-tooltip-id="tooltip" data-tooltip-content="Official-Projects" onClick={navigateToOfficialProjects}>Projects</button>
       <Tooltip place="top" id="tooltip" />
-      <button className='aboutme-button' data-tooltip-id="tooltip" data-tooltip-content="About me" onClick={navigateToAboutMe}><img className='aboutme-icon' alt=''/></button>
+      <button className='aboutme-button' data-tooltip-id="tooltip" data-tooltip-content="About me" onClick={navigateToAboutMe}>about me</button>
       <Tooltip place="top" id="tooltip" />
      <div className='slanted-div'>
       

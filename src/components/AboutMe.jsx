@@ -54,11 +54,11 @@ const AboutMe = () => {
    <img src = {myPortrait} className='portrait-image' alt = ''/>
    </motion.div>
 </div>
-<button className='home-button-about-me' data-tooltip-id="tooltip" data-tooltip-content="Home" onClick={navigateToHome}><img className='home-icon-about-me' alt=''/></button>
+<button className='home-button-about-me' data-tooltip-id="tooltip" data-tooltip-content="Home" onClick={navigateToHome}>Home</button>
 <Tooltip place="top" id="tooltip" />
- <button className='skills-button-about-me' data-tooltip-id="tooltip" data-tooltip-content="Skills" onClick={navigatetoSkills}><img className='skills-icon-about-me' alt=''/></button>
+ <button className='skills-button-about-me' data-tooltip-id="tooltip" data-tooltip-content="Skills" onClick={navigatetoSkills}>Skills</button>
 <Tooltip place="top" id="tooltip" />
-  <button className='projects-button-about-me' data-tooltip-id="tooltip" data-tooltip-content="Official-Projects" onClick={navigateToOfficialProjects}><img className='projects-icon-about-me' alt=''/></button>
+  <button className='projects-button-about-me' data-tooltip-id="tooltip" data-tooltip-content="Official-Projects" onClick={navigateToOfficialProjects}>Projects</button>
   <Tooltip place="top" id="tooltip" />
 
 <div className='About-me-heading'>About me:</div>

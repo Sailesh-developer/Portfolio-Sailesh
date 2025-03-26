@@ -30,11 +30,11 @@ const OfficialProjects = () => {
 
   return (
     <div className='official-projects-background'>
-       <button className='home-button' data-tooltip-id="tooltip" data-tooltip-content="Home" onClick={navigateToHome}><img className='home-icon' alt=''/></button>
+       <button className='home-button-official' data-tooltip-id="tooltip" data-tooltip-content="Home" onClick={navigateToHome}>Home</button>
        <Tooltip place="top" id="tooltip" />
-        <button className='skills-button' data-tooltip-id="tooltip" data-tooltip-content="Skills" onClick={navigatetoSkills}><img className='skills-icon' alt=''/></button>
+        <button className='skills-button-official' data-tooltip-id="tooltip" data-tooltip-content="Skills" onClick={navigatetoSkills}>Skills</button>
         <Tooltip place="top" id="tooltip" />
-           <button className='aboutme-button-official' data-tooltip-id="tooltip" data-tooltip-content="About me" onClick={navigatetoAboutme}><img className='aboutme-icon-official' alt=''/></button>
+           <button className='aboutme-button-official' data-tooltip-id="tooltip" data-tooltip-content="About me" onClick={navigatetoAboutme}>About me</button>
           <Tooltip place="top" id="tooltip" />
     <div className='off-title-text'>Official projects:</div>
     <div class="card-container">

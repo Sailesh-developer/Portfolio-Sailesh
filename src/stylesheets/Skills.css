@@ -25,103 +25,84 @@ top : 15%;
   border: none;
   cursor: pointer;
   position: absolute;
-  left : 84%;
-  top : 0.5%
+  left : 81%;
+  top : 0.5%;
+  width: 65px;
+  height: 30px;
+  transition: all 0.3s ease;
+  color: #f5f900;
+  font-weight: bold;
 }
 
-.home-icon-for-skills{
-  content: url('../assets/home_new.png');
-  width: 30px;
-  height: 30px;
-  transition: all 0.3s ease; 
-  border-radius: 50%;
-  padding-bottom :8px;
-  padding-left: 8px;
-  padding-top: 4px;
-  padding-right: 8px;
- 
-  }
+
   
 
-.home-button-for-skills:hover .home-icon-for-skills {
-  content: url('../assets/home_new_dark.png');
-  width: 30px;
+.home-button-for-skills:hover  {
+  width: 65px;
   height: 30px;
-  border-radius: 50%;
-  outline: none;
   background-color: #f5f900;
-  padding-bottom :8px;
-  padding-left: 8px;
-  padding-top: 4px;
-  padding-right: 8px;
+  color: black;
+  font-weight: bold;
 }
 
 .projects-button-for-skills {
   position: absolute;
-  top: 0.5%;
-  left: 89%;
   background-color: transparent;
   border: none;
   cursor: pointer;
   transition: all 0.3s ease;
-  border-radius : 50%;
-
+  left : 86.5%;
+  top : 0.5%;
+  width: 65px;
+  height: 30px;
+  color: #f5f900;
+  font-weight: bold;
+  font-size: 13px;
 }
 
-.projects-icon-for-skills {
-  content: url('../assets/projects.png');
-  width: 28px;
-  height: 28px;
-  transition: all 0.3s ease; 
-  padding-bottom :8px;
-  padding-left: 8px;
-  padding-top: 4px;
-  padding-right: 8px;
-  border-radius: 50%;
-}
-
-
-.projects-button-for-skills:hover .projects-icon-for-skills {
-  content: url('../assets/projectsHover.png');
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
+.projects-button-for-skills:hover {
+  position: absolute;
   background-color: #f5f900;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 65px;
+  height: 30px;
+  color: black;
+  font-weight: bold;
 }
+
+
+
+
 
 
 .aboutme-button-skills {
-  position: absolute;
-  left: 94%;
-  top: 0.2%;
+  position : absolute;
+  color : yellow;
   background-color: transparent;
   border: none;
+  left : 92%;
+  font-size: 13px;
+  height : 4.5%;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  width : 2.5%;
+  top:0.5%;
+  white-space: nowrap;
+  height: 30px;
+  width: 80px;
+  font-weight: bold;
   cursor: pointer;
-  transition: all 0.3s ease;
-  border-radius : 50%;
-}
-
-.aboutme-icon-skills {
-  content: url('../assets/aboutme.png');
-  width: 28px;
-  height: 28px;
-  transition: all 0.3s ease; 
-  /* padding-bottom : 10px; */
-  /* border-radius: 50%; */
-  padding : 8px;
-  padding-bottom :9px;
-  padding-left: 8px;
-  padding-top: 8px;
-  padding-right: 8px;
-  border-radius: 50%;
 }
 
 
-.aboutme-button-skills:hover .aboutme-icon-skills {
-  content: url('../assets/aboutmeHover.png');
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
+
+
+.aboutme-button-skills:hover{
+  height: 30px;
+  width: 80px;
   background-color: #f5f900;
+  color: black;
+  font-weight: bold;
 }
 
