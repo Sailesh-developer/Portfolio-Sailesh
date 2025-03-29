@@ -17,7 +17,7 @@
 
 #chartdiv{
 position: absolute;
-top : 15%;
+top : 12%;
 }
 
 .home-button-for-skills{
@@ -105,4 +105,400 @@ top : 15%;
   color: black;
   font-weight: bold;
 }
+
+
+.next-button-skills{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f900;
+  border : none;
+  top: 93%;
+  left : 45%;
+  width: 130px;
+  height : 40px;
+  border-radius : 12px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.next-button-skills:hover{
+  background-color: #2A3139;
+  color : #f5f900;
+  border : 1px solid #f5f900;
+  cursor : pointer;
+}
+
+
+
+@media only screen and (min-width: 920px) and (max-width: 1054px) {
+
+
+  .home-button-for-skills{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left : 78%;
+    top : 0.5%;
+    width: 65px;
+    height: 30px;
+    transition: all 0.3s ease;
+    color: #f5f900;
+    font-weight: bold;
+  }
+  
+  
+    
+  
+  .home-button-for-skills:hover  {
+    width: 65px;
+    height: 30px;
+    background-color: #f5f900;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .projects-button-for-skills {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    left : 84.5%;
+    top : 0.5%;
+    width: 65px;
+    height: 30px;
+    color: #f5f900;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  
+  .projects-button-for-skills:hover {
+    position: absolute;
+    background-color: #f5f900;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 65px;
+    height: 30px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  
+  
+  
+  
+  
+  .aboutme-button-skills {
+    position : absolute;
+    color : yellow;
+    background-color: transparent;
+    border: none;
+    left : 91%;
+    font-size: 13px;
+    height : 4.5%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width : 2.5%;
+    top:0.5%;
+    white-space: nowrap;
+    height: 30px;
+    width: 80px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  .aboutme-button-skills:hover{
+    height: 30px;
+    width: 80px;
+    background-color: #f5f900;
+    color: black;
+    font-weight: bold;
+  }
+  
+}
+
+
+
+@media only screen and (min-width: 700px) and (max-width: 920px) {
+
+
+
+  .home-button-for-skills{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left : 73%;
+    top : 0.5%;
+    width: 65px;
+    height: 30px;
+    transition: all 0.3s ease;
+    color: #f5f900;
+    font-weight: bold;
+  }
+  
+  
+    
+  
+  .home-button-for-skills:hover  {
+    width: 65px;
+    height: 30px;
+    background-color: #f5f900;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .projects-button-for-skills {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    left : 81.5%;
+    top : 0.5%;
+    width: 65px;
+    height: 30px;
+    color: #f5f900;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  
+  .projects-button-for-skills:hover {
+    position: absolute;
+    background-color: #f5f900;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 65px;
+    height: 30px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  
+  
+  
+  
+  
+  .aboutme-button-skills {
+    position : absolute;
+    color : yellow;
+    background-color: transparent;
+    border: none;
+    left : 90%;
+    font-size: 13px;
+    height : 4.5%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width : 2.5%;
+    top:0.5%;
+    white-space: nowrap;
+    height: 30px;
+    width: 80px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  .aboutme-button-skills:hover{
+    height: 30px;
+    width: 80px;
+    background-color: #f5f900;
+    color: black;
+    font-weight: bold;
+  }
+}
+
+
+@media only screen and (min-width: 500px) and (max-width: 700px) {
+
+
+
+  .home-button-for-skills{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left : 62%;
+    top : 0.5%;
+    width: 65px;
+    height: 30px;
+    transition: all 0.3s ease;
+    color: #f5f900;
+    font-weight: bold;
+  }
+  
+  
+    
+  
+  .home-button-for-skills:hover  {
+    width: 65px;
+    height: 30px;
+    background-color: #f5f900;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .projects-button-for-skills {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    left : 74.5%;
+    top : 0.5%;
+    width: 65px;
+    height: 30px;
+    color: #f5f900;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  
+  .projects-button-for-skills:hover {
+    position: absolute;
+    background-color: #f5f900;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 65px;
+    height: 30px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  
+  
+  
+  
+  
+  .aboutme-button-skills {
+    position : absolute;
+    color : yellow;
+    background-color: transparent;
+    border: none;
+    left : 86%;
+    font-size: 13px;
+    height : 4.5%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width : 2.5%;
+    top:0.5%;
+    white-space: nowrap;
+    height: 30px;
+    width: 80px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  .aboutme-button-skills:hover{
+    height: 30px;
+    width: 80px;
+    background-color: #f5f900;
+    color: black;
+    font-weight: bold;
+  }
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+
+
+  
+  .home-button-for-skills{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left : 53%;
+    top : 0.5%;
+    width: 65px;
+    height: 30px;
+    transition: all 0.3s ease;
+    color: #f5f900;
+    font-weight: bold;
+  }
+  
+  
+    
+  
+  .home-button-for-skills:hover  {
+    width: 65px;
+    height: 30px;
+    background-color: #f5f900;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .projects-button-for-skills {
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    left : 68.5%;
+    top : 0.5%;
+    width: 65px;
+    height: 30px;
+    color: #f5f900;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  
+  .projects-button-for-skills:hover {
+    position: absolute;
+    background-color: #f5f900;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 65px;
+    height: 30px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  
+  
+  
+  
+  
+  .aboutme-button-skills {
+    position : absolute;
+    color : yellow;
+    background-color: transparent;
+    border: none;
+    left : 85%;
+    font-size: 13px;
+    height : 4.5%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width : 2.5%;
+    top:0.5%;
+    white-space: nowrap;
+    height: 30px;
+    width: 80px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  .aboutme-button-skills:hover{
+    height: 30px;
+    width: 80px;
+    background-color: #f5f900;
+    color: black;
+    font-weight: bold;
+  }
+}
+
+
+
+
 

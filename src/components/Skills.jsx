@@ -260,9 +260,9 @@ useEffect(() => {
         <button className='aboutme-button-skills' data-tooltip-id="tooltip" data-tooltip-content="About me" onClick={navigateToAboutMe}>About me</button>
         <div id="chartdiv" ref={chartRef} style={{ width: "90%", height: "730px" }} />
         
-     
+        <button className='next-button-skills' onClick={navigateToOfficialProjects}>next</button>
 </div>
-    
+   
   )
 }
 
