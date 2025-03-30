@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-Sailesh/static/css/main.5a4102fe.css",
-    "main.js": "/Portfolio-Sailesh/static/js/main.f7d19500.js",
+    "main.js": "/Portfolio-Sailesh/static/js/main.7677a568.js",
     "static/js/453.5b94d661.chunk.js": "/Portfolio-Sailesh/static/js/453.5b94d661.chunk.js",
     "static/media/ForPortFolioFrontPage.svg": "/Portfolio-Sailesh/static/media/ForPortFolioFrontPage.b15230561d0710d589f5ef000cffb18a.svg",
     "static/media/devops-automation-flow.png": "/Portfolio-Sailesh/static/media/devops-automation-flow.87154cdd82a45b059e34.png",
@@ -40,11 +40,11 @@
     "static/media/java-script.png": "/Portfolio-Sailesh/static/media/java-script.78206ba65e01c7d57080.png",
     "index.html": "/Portfolio-Sailesh/index.html",
     "main.5a4102fe.css.map": "/Portfolio-Sailesh/static/css/main.5a4102fe.css.map",
-    "main.f7d19500.js.map": "/Portfolio-Sailesh/static/js/main.f7d19500.js.map",
+    "main.7677a568.js.map": "/Portfolio-Sailesh/static/js/main.7677a568.js.map",
     "453.5b94d661.chunk.js.map": "/Portfolio-Sailesh/static/js/453.5b94d661.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5a4102fe.css",
-    "static/js/main.f7d19500.js"
+    "static/js/main.7677a568.js"
   ]
 }
