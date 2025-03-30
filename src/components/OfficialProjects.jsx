@@ -2,7 +2,6 @@ import React from 'react'
 import '../stylesheets/OfficialProjects.css'
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Tooltip } from 'react-tooltip';
 import OORTFlow from '../assets/OORT flow.png';
 import DevAutoFlow from '../assets/devops-automation-flow.png';
 import copilotFlow from '../assets/copilot-flow.png';

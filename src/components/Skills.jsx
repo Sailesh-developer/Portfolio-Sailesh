@@ -10,7 +10,7 @@ import angular from '../assets/angular.png';
 import javaScript from '../assets/java-script.png';
 import affDesigner from '../assets/logo.png';
 import { useNavigate } from 'react-router-dom';
-import { Tooltip } from 'react-tooltip';
+
 
 const Skills = () => {
 

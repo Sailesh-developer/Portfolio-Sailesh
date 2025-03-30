@@ -2,7 +2,6 @@
 import '../stylesheets/AboutMe.css'
 import myPortrait from "../assets/myPortrait.png"
 import { motion } from 'framer-motion';
-import { Tooltip } from 'react-tooltip';
 import { useNavigate } from 'react-router-dom';
 
 
