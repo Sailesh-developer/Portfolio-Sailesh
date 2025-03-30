@@ -1,7 +1,7 @@
 {
   "name": "portfolio-sailesh",
   "version": "0.1.0",
-  "homepage": "https://Sailesh-developer.github.io/Portfolio-Sailesh",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@amcharts/amcharts5": "^5.10.8",
