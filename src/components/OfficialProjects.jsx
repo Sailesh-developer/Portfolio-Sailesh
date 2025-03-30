@@ -31,12 +31,12 @@ const OfficialProjects = () => {
 
   return (
     <div className='official-projects-background'>
-       <button className='home-button-official' data-tooltip-id="tooltip" data-tooltip-content="Home" onClick={navigateToHome}>Home</button>
-       <Tooltip place="top" id="tooltip" />
-        <button className='skills-button-official' data-tooltip-id="tooltip" data-tooltip-content="Skills" onClick={navigatetoSkills}>Skills</button>
-        <Tooltip place="top" id="tooltip" />
-           <button className='aboutme-button-official' data-tooltip-id="tooltip" data-tooltip-content="About me" onClick={navigatetoAboutme}>About me</button>
-          <Tooltip place="top" id="tooltip" />
+       <button className='home-button-official' onClick={navigateToHome}>Home</button>
+    
+        <button className='skills-button-official' onClick={navigatetoSkills}>Skills</button>
+     
+           <button className='aboutme-button-official' onClick={navigatetoAboutme}>About me</button>
+      
     <div className='off-title-text'>Official projects:</div>
     <div class="card-container">
   <div class="card" onMouseEnter={() => [setShowOptiusInfo(true), setShowCopilotInfo(false), setShowDevopsInfo(false)]}>Optius Order removal tool</div>

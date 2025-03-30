@@ -242,7 +242,7 @@ useEffect(() => {
   
 
   return () => {
-    root.dispose(); // Cleanup on component unmount
+    root.dispose(); 
   };
 }, []);
 
@@ -254,10 +254,9 @@ useEffect(() => {
 
       
         <div className='skills-heading'>Skills</div>
-        <button className='home-button-for-skills' data-tooltip-id="tooltip" data-tooltip-content="Home" onClick={navigateToHome}>Home</button>
-        <Tooltip place="top" id="tooltip" />
-        <button className='projects-button-for-skills' data-tooltip-id="tooltip" data-tooltip-content="Official-Projects" onClick={navigateToOfficialProjects}>Projects</button>
-        <button className='aboutme-button-skills' data-tooltip-id="tooltip" data-tooltip-content="About me" onClick={navigateToAboutMe}>About me</button>
+        <button className='home-button-for-skills' onClick={navigateToHome}>Home</button>
+        <button className='projects-button-for-skills'  onClick={navigateToOfficialProjects}>Projects</button>
+        <button className='aboutme-button-skills' onClick={navigateToAboutMe}>About me</button>
         <div id="chartdiv" ref={chartRef} style={{ width: "90%", height: "730px" }} />
         
         <button className='next-button-skills' onClick={navigateToOfficialProjects}>next</button>

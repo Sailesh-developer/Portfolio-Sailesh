@@ -1187,7 +1187,7 @@ line-height: 25px;
   position: absolute;
   font-family: 'Roboto', sans-serif;
   left : 20%;
-  top : 27%;
+  top : 29%;
   font-size: 16px;
   font-weight: bold;
   max-width: 40%;
@@ -1204,14 +1204,14 @@ line-height: 25px;
   position: absolute;
   font-family: 'Roboto', sans-serif;
   left : 20%;
-  top : 42%;
+  top : 45%;
   font-size: 23px;
   font-weight: bold;
 }
 
 .copilot-flow{
   position: absolute;
-  top : 41%;
+  top : 44%;
   left : 11%;
   height : 30rem;
   width : 42rem;
@@ -1374,10 +1374,11 @@ line-height: 25px;
   /* left : 8%; */
   white-space: nowrap;
   font-size: 23px;
+  top: 8%;
 }
 
 .technologies-list{
-  margin-top: 40px;
+  margin-top: 50px;
 transform: translateX(-16px);
 }
 
@@ -1480,7 +1481,7 @@ line-height: 25px;
 
 .oort-flow{
   position: absolute;
-  top : 50%;
+  top : 55%;
   left : 8%;
   height : 25rem;
   width : 40rem;
@@ -1490,7 +1491,7 @@ line-height: 25px;
   position: absolute;
   font-family: 'Roboto', sans-serif;
   left : 20%;
-  top : 48%;
+  top : 53%;
   font-size: 25px;
   font-weight: bold;
 }
@@ -1530,13 +1531,14 @@ line-height: 25px;
   /* left : 8%; */
   white-space: nowrap;
   font-size: 23px;
+  top : 10%;
 }
 
 .devops-automation-technologies{
   position: absolute;
   font-family: 'Roboto', sans-serif;
   left : 20%;
-  top : 24%;
+  top : 25%;
   font-size: 16px;
   font-weight: bold;
   max-width: 40%;
@@ -1544,7 +1546,7 @@ line-height: 25px;
 
 .devops-automation-flow{
   position: absolute;
-  top : 42%;
+  top : 45%;
   left : 10%;
   height : 28rem;
   width : 37rem;
@@ -1554,7 +1556,7 @@ line-height: 25px;
   position: absolute;
   font-family: 'Roboto', sans-serif;
   left : 20%;
-  top : 39%;
+  top : 42%;
   font-size: 23px;
   font-weight: bold;
 }
@@ -1593,7 +1595,7 @@ line-height: 25px;
   position: absolute;
   font-family: 'Roboto', sans-serif;
   left : 20%;
-  top : 27%;
+  top : 30%;
   font-size: 16px;
   font-weight: bold;
   max-width: 40%;
@@ -1610,14 +1612,14 @@ line-height: 25px;
   position: absolute;
   font-family: 'Roboto', sans-serif;
   left : 20%;
-  top : 42%;
+  top : 48%;
   font-size: 23px;
   font-weight: bold;
 }
 
 .copilot-flow{
   position: absolute;
-  top : 41%;
+  top : 46%;
   left : 9%;
   height : 28rem;
   width : 39rem;
@@ -1997,7 +1999,7 @@ line-height: 25px;
   position: absolute;
   font-family: 'Roboto', sans-serif;
   left : 20%;
-  top : 27%;
+  top : 30%;
   font-size: 16px;
   font-weight: bold;
   max-width: 40%;
@@ -2014,14 +2016,14 @@ line-height: 25px;
   position: absolute;
   font-family: 'Roboto', sans-serif;
   left : 20%;
-  top : 42%;
+  top : 48%;
   font-size: 23px;
   font-weight: bold;
 }
 
 .copilot-flow{
   position: absolute;
-  top : 41%;
+  top : 47%;
   left : 9%;
   height : 25rem;
   width : 36rem;
@@ -2400,7 +2402,7 @@ line-height: 25px;
   position: absolute;
   font-family: 'Roboto', sans-serif;
   left : 20%;
-  top : 27%;
+  top : 30%;
   font-size: 16px;
   font-weight: bold;
   max-width: 40%;
@@ -2417,14 +2419,14 @@ line-height: 25px;
   position: absolute;
   font-family: 'Roboto', sans-serif;
   left : 20%;
-  top : 42%;
+  top : 47%;
   font-size: 23px;
   font-weight: bold;
 }
 
 .copilot-flow{
   position: absolute;
-  top : 41%;
+  top : 47%;
   left : 9%;
   height : 25rem;
   width : 33rem;
@@ -2800,7 +2802,7 @@ line-height: 25px;
   position: absolute;
   font-family: 'Roboto', sans-serif;
   left : 20%;
-  top : 29%;
+  top : 31%;
   font-size: 16px;
   font-weight: bold;
   max-width: 40%;
@@ -2817,14 +2819,14 @@ line-height: 25px;
   position: absolute;
   font-family: 'Roboto', sans-serif;
   left : 20%;
-  top : 43.5%;
+  top : 49%;
   font-size: 23px;
   font-weight: bold;
 }
 
 .copilot-flow{
   position: absolute;
-  top : 41%;
+  top : 47%;
   left : 7%;
   height : 23rem;
   width : 31rem;
@@ -3200,7 +3202,7 @@ line-height: 25px;
   position: absolute;
   font-family: 'Roboto', sans-serif;
   left : 20%;
-  top : 29%;
+  top : 34%;
   font-size: 16px;
   font-weight: bold;
   max-width: 40%;
@@ -3217,14 +3219,14 @@ line-height: 25px;
   position: absolute;
   font-family: 'Roboto', sans-serif;
   left : 20%;
-  top : 43.5%;
+  top : 50%;
   font-size: 23px;
   font-weight: bold;
 }
 
 .copilot-flow{
   position: absolute;
-  top : 44%;
+  top : 50%;
   left : 7%;
   height : 21rem;
   width : 28rem;
@@ -3600,7 +3602,7 @@ line-height: 25px;
   position: absolute;
   font-family: 'Roboto', sans-serif;
   left : 20%;
-  top : 30%;
+  top : 33%;
   font-size: 16px;
   font-weight: bold;
   max-width: 40%;
@@ -3618,14 +3620,14 @@ line-height: 25px;
   position: absolute;
   font-family: 'Roboto', sans-serif;
   left : 20%;
-  top : 45.5%;
+  top : 51%;
   font-size: 23px;
   font-weight: bold;
 }
 
 .copilot-flow{
   position: absolute;
-  top : 44%;
+  top : 50%;
   left : 6%;
   height : 19rem;
   width : 25rem;
