@@ -108,7 +108,7 @@ top : 12%;
 
 
 .next-button-skills{
-  position: absolute;
+  position: relative;
   font-family: 'Roboto', sans-serif;
   background-color: #f5f900;
   border : none;

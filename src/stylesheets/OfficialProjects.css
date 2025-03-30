@@ -13,6 +13,14 @@
     left : 3%;
 }
 
+.img-before-hover{
+  width : 800px;
+  height : 500px;
+  position: relative;
+  top : 20%;
+  left : 10%;
+}
+
 
 .card-container {
   display: flex;
@@ -375,13 +383,59 @@ line-height: 25px;
 }
 
 
+.next-button-projects{
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f900;
+  border : none;
+  top: 93%;
+  left : 33%;
+  width: 130px;
+  height : 40px;
+  border-radius : 12px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
 
 
+.next-button-projects:hover{
+  background-color: #2A3139;
+  color : #f5f900;
+  border : 1px solid #f5f900;
+  cursor : pointer;
+}
 
 
 
 
 @media only screen and (min-width: 1433px) and (max-width: 1564px) {
+
+
+
+  .img-before-hover{
+    width : 750px;
+    height : 450px;
+    position: relative;
+    top : 24%;
+    left : 10%;
+  }
+
+
+  .next-button-projects{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f900;
+    border : none;
+    top: 93%;
+    left : 33%;
+    width: 130px;
+    height : 40px;
+    border-radius : 12px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+
 
   .official-projects-background{
     background-color: #2A3139;
@@ -760,6 +814,33 @@ line-height: 25px;
 
 
 @media only screen and (min-width: 1333px) and (max-width: 1433px) {
+
+
+
+
+  .img-before-hover{
+    width : 700px;
+    height : 410px;
+    position: relative;
+    top : 24%;
+    left : 10%;
+  }
+
+
+  .next-button-projects{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f900;
+    border : none;
+    top: 93%;
+    left : 28%;
+    width: 130px;
+    height : 40px;
+    border-radius : 12px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
 
 
 
@@ -1144,7 +1225,28 @@ line-height: 25px;
 
 @media only screen and (min-width: 1233px) and (max-width: 1333px) {
 
+  .img-before-hover{
+    width : 620px;
+    height : 410px;
+    position: relative;
+    top : 24%;
+    left : 10%;
+  }
 
+
+  .next-button-projects{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f900;
+    border : none;
+    top: 93%;
+    left : 28%;
+    width: 130px;
+    height : 40px;
+    border-radius : 12px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
 
 
 
@@ -1526,6 +1628,30 @@ line-height: 25px;
 
 @media only screen and (min-width: 1133px) and (max-width: 1233px) {
 
+
+
+  .img-before-hover{
+    width : 600px;
+    height : 410px;
+    position: relative;
+    top : 24%;
+    left : 10%;
+  }
+
+
+  .next-button-projects{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f900;
+    border : none;
+    top: 93%;
+    left : 28%;
+    width: 130px;
+    height : 40px;
+    border-radius : 12px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
 
 
   .official-projects-background{
@@ -1910,6 +2036,29 @@ line-height: 25px;
 @media only screen and (min-width: 1033px) and (max-width: 1133px) {
 
 
+  .img-before-hover{
+    width : 550px;
+    height : 410px;
+    position: relative;
+    top : 24%;
+    left : 9%;
+  }
+
+
+  .next-button-projects{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f900;
+    border : none;
+    top: 93%;
+    left : 28%;
+    width: 130px;
+    height : 40px;
+    border-radius : 12px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
 
 
   .official-projects-background{
@@ -2287,7 +2436,28 @@ line-height: 25px;
 
 @media only screen and (min-width: 933px) and (max-width: 1033px) {
 
+  .img-before-hover{
+    width : 500px;
+    height : 410px;
+    position: relative;
+    top : 24%;
+    left : 9%;
+  }
 
+
+  .next-button-projects{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f900;
+    border : none;
+    top: 93%;
+    left : 28%;
+    width: 100px;
+    height : 40px;
+    border-radius : 12px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
   
   .official-projects-background{
     background-color: #2A3139;
@@ -2664,6 +2834,29 @@ line-height: 25px;
 
 @media only screen and (min-width: 833px) and (max-width: 933px) {
 
+
+  .img-before-hover{
+    width : 450px;
+    height : 380px;
+    position: relative;
+    top : 24%;
+    left : 8%;
+  }
+
+
+  .next-button-projects{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f900;
+    border : none;
+    top: 93%;
+    left : 28%;
+    width: 100px;
+    height : 40px;
+    border-radius : 12px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
   
   .official-projects-background{
     background-color: #2A3139;
@@ -3041,6 +3234,29 @@ line-height: 25px;
 
 @media only screen and (min-width: 733px) and (max-width: 833px) {
 
+
+  .img-before-hover{
+    width : 400px;
+    height : 350px;
+    position: relative;
+    top : 24%;
+    left : 8%;
+  }
+
+
+  .next-button-projects{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f900;
+    border : none;
+    top: 93%;
+    left : 28%;
+    width: 100px;
+    height : 40px;
+    border-radius : 12px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
     
   .official-projects-background{
     background-color: #2A3139;
@@ -3420,6 +3636,29 @@ line-height: 25px;
 
 @media only screen and (min-width: 633px) and (max-width: 733px) {
 
+
+  .img-before-hover{
+    width : 350px;
+    height : 330px;
+    position: relative;
+    top : 24%;
+    left : 8%;
+  }
+
+
+  .next-button-projects{
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f900;
+    border : none;
+    top: 93%;
+    left : 23%;
+    width: 100px;
+    height : 40px;
+    border-radius : 12px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
     
   .official-projects-background{
     background-color: #2A3139;

@@ -1,15 +1,13 @@
-import React, { useState } from 'react'
+
 import '../stylesheets/AboutMe.css'
 import myPortrait from "../assets/myPortrait.png"
 import { motion } from 'framer-motion';
 import { Tooltip } from 'react-tooltip';
 import { useNavigate } from 'react-router-dom';
-import downloadIcon from "../assets/download-icon.png";
-import downloadIconHovered from "../assets/download-icon-hover.png";
+
 
 const AboutMe = () => {
 
-  const [downloadResumeHovered , setDownloadResumeHovered] = useState(false)
 
   const navigate = useNavigate(); 
 
@@ -41,15 +39,15 @@ const AboutMe = () => {
 <div className='about-me-slanted-div'>
 <motion.div
       animate={{
-        y: [0, -20, 0], // Moves up by -20px and back to 0
+        y: [0, -20, 0], 
       }}
       transition={{
-        duration: 1, // Duration of one bounce cycle
+        duration: 1,
         ease: "easeInOut",
-        repeat: Infinity, // Infinite loop
+        repeat: Infinity, 
         repeatType: "loop",
       }}
-      style={{ display: 'flex' }} // Keeps it inline for better layout
+      style={{ display: 'flex' }} 
     >
    <img src = {myPortrait} className='portrait-image' alt = ''/>
    </motion.div>
@@ -80,29 +78,10 @@ Contact information :
 
  <span className='resume-download-text'>you can download my resume by clicking this button.</span>   
  <button
-      onMouseEnter={() => setDownloadResumeHovered(true)}
-      onMouseLeave={() => setDownloadResumeHovered(false)}
-      style={{
-        backgroundColor: downloadResumeHovered ? "black" : "#F5F900",
-        transition: "all 0.3s ease",
-        borderRadius: "20%",
-        border: "none",
-        cursor : "pointer",
-        position: "absolute",
-        top : "89%",
-        left : "37%",
-        height : "40px",
-        width : "40px",
-        paddingLeft : '8px'
-      }}
       onClick={handleResumeDownload}
-       data-tooltip-id="tooltip" data-tooltip-content="Download resume"
+      className='download-resume-button'
     >
-      <img
-        src={downloadResumeHovered  ?  downloadIconHovered : downloadIcon}
-        alt="icon"
-        style={{ width: "24px", height: "24px" }}
-      />
+     Download
     </button>
    <Tooltip place="top" id="tooltip"/>
     </div>

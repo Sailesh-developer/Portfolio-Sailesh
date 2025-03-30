@@ -41,7 +41,7 @@ const navigateToOfficialProjects = () => {
      <div className='title-text'>Hi, I'm Sailesh</div>
      <div className='title-sub-text'>- Full stack developer</div>
      <div className='title-sub-text-2'>Check out some of the cool stuffs which I did. Click the button below</div>
-     <button className='explore-button'>Explore now!</button>
+     <button className='explore-button' onClick={navigateToSkills}>Explore now!</button>
     </div>
   )
 }

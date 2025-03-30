@@ -6,6 +6,7 @@ import { Tooltip } from 'react-tooltip';
 import OORTFlow from '../assets/OORT flow.png';
 import DevAutoFlow from '../assets/devops-automation-flow.png';
 import copilotFlow from '../assets/copilot-flow.png';
+import project_img_before_hover from '../assets/projects_image.png'
  
 const OfficialProjects = () => {
 
@@ -42,7 +43,16 @@ const OfficialProjects = () => {
   <div class="card" onMouseEnter={() => [setShowDevopsInfo(true),setShowOptiusInfo(false), setShowCopilotInfo(false)]}>Devops Automation (POC)</div>
   <div class="card" onMouseEnter={() => [setShowCopilotInfo(true) , setShowDevopsInfo(false) , setShowOptiusInfo(false)]}>Copilot (POC)</div>
 </div>
+<button className='next-button-projects' onClick={navigatetoAboutme}>next</button>
 <div className='slanted-div-projects'>
+
+  { !showOptiusInfo && !showDevopsInfo && !showCopilotInfo && (
+    <>
+    <img src = {project_img_before_hover} alt='' className='img-before-hover'/>
+    </>
+  )
+
+  }
  
 {showOptiusInfo && (
   //  <div className='project-details-card'>
