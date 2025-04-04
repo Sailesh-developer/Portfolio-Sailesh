@@ -23,7 +23,7 @@ const AboutMe = () => {
   }
 
   const handleResumeDownload = () => {
-    const saileshResume = "/Sailesh-resume.pdf";
+    const saileshResume = "/My-resume.pdf";
     const link = document.createElement("a");
     link.href = saileshResume;
     link.download = "Sailesh's resume.pdf";
